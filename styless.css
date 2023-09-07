@@ -1,0 +1,142 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: green; /* Changed to green */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style the button */
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Style the feature section */
+#feature-section {
+    padding: 40px;
+    background-color: #fff; /* Added a background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added a shadow */
+    text-align: center; /* Centered text */
+}
+
+.feature {
+    margin-bottom: 40px;
+    text-align: center; /* Centered text */
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Added border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added a shadow */
+}
+
+/* Style the about section */
+#about-section {
+    background-color: #f0f0f0; /* Changed background color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centered text */
+}
+
+#about-section p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+#about-section ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#about-section ul li {
+    margin-bottom: 10px;
+}
+
+.github-link {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.github-link:hover {
+    background-color: #222;
+}
+
+/* Style the demo section */
+#demo {
+    text-align: center;
+    padding: 40px;
+}
+
+.demo-button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.demo-button:hover {
+    background-color: #0077A3;
+}
